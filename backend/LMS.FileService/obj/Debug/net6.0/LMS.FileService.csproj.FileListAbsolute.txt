@@ -1,0 +1,12 @@
+/home/thirumurugan/Desktop/React/LMS/backend/LMS.FileService/bin/Debug/net6.0/LMS.FileService.deps.json
+/home/thirumurugan/Desktop/React/LMS/backend/LMS.FileService/bin/Debug/net6.0/LMS.FileService.dll
+/home/thirumurugan/Desktop/React/LMS/backend/LMS.FileService/bin/Debug/net6.0/ref/LMS.FileService.dll
+/home/thirumurugan/Desktop/React/LMS/backend/LMS.FileService/bin/Debug/net6.0/LMS.FileService.pdb
+/home/thirumurugan/Desktop/React/LMS/backend/LMS.FileService/obj/Debug/net6.0/LMS.FileService.csproj.AssemblyReference.cache
+/home/thirumurugan/Desktop/React/LMS/backend/LMS.FileService/obj/Debug/net6.0/LMS.FileService.GeneratedMSBuildEditorConfig.editorconfig
+/home/thirumurugan/Desktop/React/LMS/backend/LMS.FileService/obj/Debug/net6.0/LMS.FileService.AssemblyInfoInputs.cache
+/home/thirumurugan/Desktop/React/LMS/backend/LMS.FileService/obj/Debug/net6.0/LMS.FileService.AssemblyInfo.cs
+/home/thirumurugan/Desktop/React/LMS/backend/LMS.FileService/obj/Debug/net6.0/LMS.FileService.csproj.CoreCompileInputs.cache
+/home/thirumurugan/Desktop/React/LMS/backend/LMS.FileService/obj/Debug/net6.0/LMS.FileService.dll
+/home/thirumurugan/Desktop/React/LMS/backend/LMS.FileService/obj/Debug/net6.0/ref/LMS.FileService.dll
+/home/thirumurugan/Desktop/React/LMS/backend/LMS.FileService/obj/Debug/net6.0/LMS.FileService.pdb

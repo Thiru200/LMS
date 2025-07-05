@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "m0rZpAbVAIHyNt7TQRgqRx5yhpuc8bTUwfdVnqlgji8=",
+  "Source": "LMS.ProgressService",
+  "BasePath": "_content/LMS.ProgressService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -72,6 +72,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "LMS.FileService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LMS.FileService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LMS.FileService.dll": {}
+        }
       }
     }
   },
@@ -413,10 +423,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "LMS.FileService/1.0.0": {
+      "type": "project",
+      "path": "../LMS.FileService/LMS.FileService.csproj",
+      "msbuildProject": "../LMS.FileService/LMS.FileService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "LMS.FileService >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -444,7 +460,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/thirumurugan/Desktop/React/LMS/backend/LMS.FileService/LMS.FileService.csproj": {
+              "projectPath": "/home/thirumurugan/Desktop/React/LMS/backend/LMS.FileService/LMS.FileService.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

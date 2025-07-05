@@ -1,32 +1,22 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace LMS.CourseService.Controllers;
-
-[ApiController]
-[Route("[controller]")]
-public class CourseServiceController : ControllerBase
+namespace LMS.CourseService.Controllers
 {
-    private static readonly string[] Summaries = new[]
+    [ApiController]
+    [Route("[controller]")]
+    public class CourseController : ControllerBase
     {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+        private readonly ILogger<CourseController> _logger;
 
-    private readonly ILogger<WeatherForecastController> _logger;
-
-    public CourseServiceController(ILogger<WeatherForecastController> logger)
-    {
-        _logger = logger;
-    }
-
-    [HttpGet(Name = "GetCourseService")]
-    public IEnumerable<WeatherForecast> Get()
-    {
-        return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+        public CourseController(ILogger<CourseController> logger)
         {
-            Date = DateTime.Now.AddDays(index),
-            TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-        })
-        .ToArray();
+            _logger = logger;
+        }
+
+        [HttpGet]
+        public string Get()
+        {
+            return "Hello from Course Service";
+        }
     }
 }

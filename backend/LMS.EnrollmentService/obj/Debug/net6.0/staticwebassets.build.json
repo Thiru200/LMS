@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KBySJtQP/XbGl8dgHnGmwypCmwgyXff/Jn3wg+WneHw=",
+  "Source": "LMS.EnrollmentService",
+  "BasePath": "_content/LMS.EnrollmentService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

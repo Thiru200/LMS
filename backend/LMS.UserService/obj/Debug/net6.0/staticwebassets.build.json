@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tZK5mnR/bqq8+sOYtkK3tUAkhg7TXjq+wRYmpQnGBRs=",
+  "Source": "LMS.UserService",
+  "BasePath": "_content/LMS.UserService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

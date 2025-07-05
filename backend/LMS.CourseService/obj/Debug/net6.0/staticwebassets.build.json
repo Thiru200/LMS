@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Jr3JSLFV51m3/vWddqIPhgp0oLyMHaGgTmfbHqhMXrY=",
+  "Source": "LMS.CourseService",
+  "BasePath": "_content/LMS.CourseService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
