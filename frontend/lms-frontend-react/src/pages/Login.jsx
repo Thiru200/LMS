@@ -72,7 +72,7 @@ const Login = () => {
             />
           </div>
           <div className="mb-6">
-            <label className="block text-sm text-gray-600 mb-1" />
+            <label className="block text-sm text-gray-600 mb-1">Password</label>
             <input
               type="password"
               name="password"
@@ -91,7 +91,9 @@ const Login = () => {
           </button>
           <p className="mt-4 text-center text-sm text-gray-500">
             Don't have an account?{" "}
-            <a href="/register" className="text-blue-600" />
+            <a href="/register" className="text-blue-600 hover:underline">
+              Register
+            </a>
           </p>
         </form>
       </div>

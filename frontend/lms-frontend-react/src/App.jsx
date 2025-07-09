@@ -1,5 +1,11 @@
+import { BrowserRouter } from "react-router-dom";
 import AppRoutes from "./routes/AppRoutes";
+
 function App() {
-  return <AppRoutes />;
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-blue-600">
+      <AppRoutes />
+    </div>
+  );
 }
 export default App;
