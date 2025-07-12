@@ -19,7 +19,7 @@ const Register = () => {
     e.preventDefault();
     setError("");
     try {
-      const res = await fetch("http://localhost:5001/api/users/register", {
+      const res = await fetch("http://localhost:5001/users/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -30,6 +30,7 @@ const Register = () => {
         const { message } = await res.json();
         throw new Error(message || "Registration failed");
       }
+      console.log(res.json());
       navigate("/login");
     } catch (err) {
       setForm(err.message);
