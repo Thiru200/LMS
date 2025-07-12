@@ -1,15 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "so9w2c9MtpEjZ3GdW/5l3PkQpKgti10Wi82m0n1ukKyNhf29gqyEe9nSlGOZmNIak6wy1KqNFAQCVRfU74iMQA==",
+  "dgSpecHash": "H2dc6X+QDz5tOSWpiX0H+8STbz+rB25Ey814ThspLO2Mo9+gL2jdEzOt2l+Ay/XXJRtAKKMbgOUW48ioScMxlg==",
   "success": true,
   "projectFilePath": "/home/thirumurugan/Desktop/React/LMS/backend/LMS.ProgressService/LMS.ProgressService.csproj",
   "expectedPackageFiles": [
+    "/home/thirumurugan/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.25/microsoft.aspnetcore.authentication.jwtbearer.6.0.25.nupkg.sha512",
+    "/home/thirumurugan/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/thirumurugan/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/thirumurugan/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.10.0/microsoft.identitymodel.jsonwebtokens.6.10.0.nupkg.sha512",
+    "/home/thirumurugan/.nuget/packages/microsoft.identitymodel.logging/6.10.0/microsoft.identitymodel.logging.6.10.0.nupkg.sha512",
+    "/home/thirumurugan/.nuget/packages/microsoft.identitymodel.protocols/6.10.0/microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "/home/thirumurugan/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.10.0/microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
+    "/home/thirumurugan/.nuget/packages/microsoft.identitymodel.tokens/6.10.0/microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
     "/home/thirumurugan/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/thirumurugan/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "/home/thirumurugan/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/home/thirumurugan/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
-    "/home/thirumurugan/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    "/home/thirumurugan/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/home/thirumurugan/.nuget/packages/system.identitymodel.tokens.jwt/6.10.0/system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
+    "/home/thirumurugan/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

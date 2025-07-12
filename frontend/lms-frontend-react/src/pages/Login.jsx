@@ -17,7 +17,7 @@ const Login = () => {
     e.preventDefault();
     setError("");
     try {
-      const res = await fetch("http://localhost:5001/api/users/login", {
+      const res = await fetch("http://localhost:5001/users/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -28,7 +28,9 @@ const Login = () => {
         const { message } = await res.json();
         throw new Error(message || "Login failed");
       }
+
       const data = await res.json();
+      console.log(data);
       localStorage.setItem("token", data.token);
       localStorage.setItem("user", JSON.stringify(data.user));
       navigate("/courses");
