@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-
-const Course = () => {
-  const [courses, setCourses] = useState([]); // ✅ Must be declared
+import CourseForm from "./CourseForm";
+const CourseList = () => {
+  const [courses, setCourses] = useState([]);
+  const [editCourse, setEditCourse] = useState(null);
   const [error, setError] = useState("");
 
   useEffect(() => {
@@ -20,9 +21,28 @@ const Course = () => {
 
     fetchCourses();
   }, []);
-
+  const handleSave = async (course) => {
+    const method = course.id ? "PUT" : "POST";
+    const url = course.id
+      ? `http://localhost:5002/courses/${course.id}`
+      : "http://localhost:5002/courses";
+    await fetch(url, {
+      method,
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(course),
+    });
+    setEditCourse(null);
+    fetchCourses();
+  };
+  const handleDelete = async (id) => {
+    if (window.confirm("Are you sure to delete this course")) {
+      await fetch(`http://localhost:5002/courses/${id}`, { method: "DELETE" });
+      fetchCourses();
+    }
+  };
   return (
     <div className="min-h-screen bg-gray-100 py-10 px-4">
+      <CourseForm onSave={handleSave} editCourse={editCourse} />
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">
         Available Courses
       </h2>
@@ -87,6 +107,20 @@ const Course = () => {
                     📄 View PDF
                   </a>
                 )}
+                <div className="flex justify-between mt-2">
+                  <button
+                    onClick={() => setEditCourse(course)}
+                    className="text-blue-600 text-sm"
+                  >
+                    ✏️ Edit
+                  </button>
+                  <button
+                    onClick={() => handleDelete(course.id)}
+                    className="text-red-600 text-sm"
+                  >
+                    ❌ Delete
+                  </button>
+                </div>
               </div>
             </div>
           );
@@ -96,4 +130,4 @@ const Course = () => {
   );
 };
 
-export default Course;
+export default CourseList;
