@@ -2,7 +2,7 @@ import { useRoutes } from "react-router-dom";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import Home from "../pages/Home";
-import CourseList from "../pages/CourseList";
+import Course from "../pages/Course";
 import PrivateRoute from "./PrivateRoute";
 
 export default function AppRoutes() {
@@ -14,7 +14,7 @@ export default function AppRoutes() {
       path: "/courses",
       element: (
         <PrivateRoute>
-          <CourseList />
+          <Course />
         </PrivateRoute>
       ),
     },

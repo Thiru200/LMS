@@ -15,8 +15,8 @@ namespace LMS.CourseService.Controllers
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
         }
 
-        [HttpGet]
-        public IActionResult GetCourses()
+        [HttpGet("GetCourses")]
+    public IActionResult GetCourses()
         {
             try
             {
